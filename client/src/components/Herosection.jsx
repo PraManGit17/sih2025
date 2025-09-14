@@ -22,7 +22,7 @@ const Herosection = () => {
       }}
     >
 
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-black/55"></div>
 
       <div className="relative z-10 flex flex-col h-full text-white px-8 py-4">
 
@@ -61,33 +61,33 @@ const Herosection = () => {
           </div>
         </div>
 
-        <div className='mt-20 flex items-start'>
-          <div>
-            <div className='py-2 text-[65px] font-bold text-shadow-gray-600 text-shadow-sm max-w-[820px] leading-20'>
-              Empowering Communities for <span className='text-[#52adf7d8]'>Safer Oceans</span>
+        <div className='mt-8'>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full
+                bg-white/10 backdrop-blur-md text-white mt-9">
+              <div>
+                <img src={incos} className='h-4' />
+              </div>
+              <span className="font-medium">
+                Ministry of Earth Sciences • INCOIS
+              </span>
             </div>
 
-            <div className='max-w-[760px] mt-2'>
-              <div className='text-2xl font-semibold opacity-75 text-gray-100'>
+            <div className='text-[65px] font-bold text-shadow-sm max-w-[820px] leading-20'>
+              Empowering Communities for <span className='text-[#64b9ffd8]'>Safer Oceans</span>
+            </div>
+
+            <div className='max-w-[760px] mt-4'>
+              <div className='text-[20px] font-medium opacity-75 text-gray-100'>
                 Report, monitor, and analyze ocean hazards in real-time with INCOIS.
-                Join thousands of citizens protecting India's coastline.
+               Join thousands of citizens protecting India's coastline.
               </div>
             </div>
-          </div>
 
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full 
-                bg-white/10 backdrop-blur-md text-white mt-9">
-            <div>
-              <img src={incos} className='h-4' />
-            </div>
-            <span className="font-medium">
-              Ministry of Earth Sciences • INCOIS
-            </span>
-          </div>
+
         </div>
 
-        <div className='mt-28 py-2 flex items-center'>
-          <div className='px-3 py-2'>
+        <div className='mt-28 py-2 flex items-center gap-4'>
+          <div className='px-4 py-2'>
             <div className='flex items-center justify-center px-3 py-1 gap-2 bg-[#078fffd8]/30 rounded'>
               <img src={map} className='h-[23px] w-[23px] mt-0.5' />
               <span className='text-xl font-normal'>Explore Ports</span>
@@ -95,7 +95,7 @@ const Herosection = () => {
             </div>
           </div>
 
-          <div className='px-3 py-2'>
+          <div className='px-4 py-2'>
             <div className='flex items-center justify-center px-3 py-1 gap-2 bg-white/90 rounded'>
               <img src={reportblue} className='h-[23px] w-[23px] mt-0.5' />
               <span className='text-xl font-medium text-[#078fffd8]'>Report A Hazard</span>
