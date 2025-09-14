@@ -23,10 +23,9 @@ const PortInfo = () => {
       <div className='px-10 py-4 h-full border-2 flex items-center gap-12'>
           <div className='w-1/2 h-full border-2'>
           </div>
- 
+
           <div className='w-1/2 h-full border-2'>
           </div>
- 
       </div>
     </div>
   )
