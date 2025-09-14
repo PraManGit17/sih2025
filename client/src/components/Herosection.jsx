@@ -15,7 +15,7 @@ import incos from '/icons/incos.png';
 const Herosection = () => {
   return (
     <div
-      className="w-screen h-screen bg-cover bg-center relative"
+      className="h-screen bg-cover bg-center relative"
       style={{
         backgroundImage:
           "url('/images/port.jpg')",
