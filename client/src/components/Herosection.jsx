@@ -32,8 +32,8 @@ const Herosection = () => {
             <div className='text-4xl font-bold'>Frontwaves</div>
           </div>
           <div className='text-xl font-semibold flex space-x-16'>
-            <div className='flex items-center gap-1'>
-              <img src={feed} className='h-[20px] w-[20px] mt-0.5' />
+            <div className='flex items-center gap-2'>
+              <img src={feed} className='h-[20px] w-[20px] mt-1' />
               <div>Live Feed</div>
             </div>
             <div className='flex items-center gap-2'>
