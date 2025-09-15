@@ -9,7 +9,6 @@ import waves from '/icons/waves.png';
 import redirect from '/icons/redirect.png';
 import reportblue from '/icons/reportblue.png';
 import rightarrow from '/icons/rightarrow.png';
-import incos from '/icons/incos.png';
 import { Link } from 'react-router-dom';
 
 const MapIntro = () => {

@@ -9,7 +9,7 @@
 }
 
 .glass-effect {
-  background: rgba(255, 255, 255, 0.163); 
+  background: rgba(88, 88, 88, 0.163); 
   backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
@@ -25,9 +25,9 @@
 
 
 .glass-child {
-  background: rgba(74, 74, 74, 0.259);
+  background: rgba(165, 165, 165, 0.086);
   border: 1px solid rgb(255, 255, 255);
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(20px);
   border-radius: 12px;
 }
 
