@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+.fixed-background {
+  background-image: url('/images/port.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.163); 
+  backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-parent {
+  background: rgba(169, 169, 169, 0); /* transparent white */
+  border: 3px solid rgba(255, 255, 255, 0.2); /* subtle border */
+  backdrop-filter: blur(8px); /* blur background */
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+
+.glass-child {
+  background: rgba(74, 74, 74, 0.259);
+  border: 1px solid rgb(255, 255, 255);
+  backdrop-filter: blur(1px);
+  border-radius: 12px;
+}
+
+.glass-popup {
+  background: rgba(66, 66, 66, 0.307); /* transparent white */
+  border: 3px solid rgb(255, 255, 255); /* subtle border */
+  backdrop-filter: blur(12px); /* blur background */
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
