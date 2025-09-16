@@ -6,79 +6,72 @@ import journalist from '/icons/journalist.png';
 
 const VoicesSection = () => {
   return (
-    <div className='h-screen flex flex-col justify-center gap-4'>
+    <div
+      className="h-screen bg-cover bg-center relative"
+      style={{
+        backgroundImage: "url('/images/coast.jpg')",
+      }}
+    >
+      <div className="absolute inset-0 bg-black/60"></div>
 
-      <div className='w-full flex justify-center'>
-        <div className='text-4xl font-bold'>" Voices from the <span className='text-[#2e7bffd8]'>Coast</span> "</div>
-      </div>
+      <div className="relative z-10 flex flex-col justify-center items-center h-full px-8">
+        
+        <div className="text-4xl md:text-5xl font-bold text-white text-center">
+          Voices from the <span className="text-[#5992f6d8]">Coast</span>
+        </div>
 
-      <div className='w-full flex flex-col items-center justify-center'>
-        <div className='text-[17px] text-gray-800 opacity-80 font-medium'>
+        <div className="mt-4 text-lg text-gray-200 opacity-90 font-medium text-center max-w-2xl">
           Real perspectives on how Frontwaves will empower communities, officials, and citizens along India's coastline.
         </div>
-      </div>
 
-      <div className='flex items-center justify-center space-x-12 w-full mt-10'>
-
-        <div className='border-2 px-6 py-8 flex flex-col gap-4 rounded-xl'>
-          <div className='flex items-center gap-4'>
-            <img src={commas} className='h-[25px] w-[26px] mt-0.5' />
-          </div>
-          <div className='text-md text-gray-900 opacity-85 font-medium max-w-[320px]'>
-            With Frontwaves, our boats will receive live alerts on high waves and sudden storms, keeping our livelihoods and lives safer at sea
-          </div>
-
-          <div className='text-gray-900 mt-4 flex items-center justify-between'>
-            <div className='h-17 w-17 rounded-full overflow-hidden'>
-              <img src={fisherman} className='object-fit rounded-full' />
+        <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12 w-full mt-12">
+          
+          <div className="glass-parent px-6 py-8 flex flex-col gap-4 rounded-xl text-white max-w-xs">
+            <img src={commas} className="h-[25px] w-[26px]" />
+            <div className="text-md font-medium opacity-90">
+              With Frontwaves, our boats will receive live alerts on high waves and sudden storms, keeping our livelihoods and lives safer at sea.
             </div>
-            <div className='flex flex-col'>
-              <div className='text-lg font-semibold'>Ravi Kumar</div>
-              <div>Fisherman, Chennai</div>
+            <div className="flex items-center gap-4 mt-4">
+              <img src={fisherman} className="h-14 w-14 rounded-full object-cover" />
+              <div>
+                <div className="text-lg font-semibold">Ravi Kumar</div>
+                <div className="text-sm opacity-80">Fisherman, Chennai</div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className='border-2 px-6 py-8 flex flex-col gap-4 rounded-xl'>
-          <div className='flex items-center gap-4'>
-            <img src={commas} className='h-[25px] w-[26px] mt-0.5' />
-          </div>
-          <div className='text-md text-gray-900 opacity-85 font-medium max-w-[320px]'>
-            By using crowdsourced reports and real-time data, we'll be able to coordinate faster evacuations and reduce coastal risk during emergencies
-          </div>
-
-          <div className='text-gray-900 mt-4 flex items-center justify-between'>
-            <div className='h-17 w-17 rounded-full overflow-hidden'>
-              <img src={officer} className='object-fit rounded-full' />
+          <div className="glass-parent px-6 py-8 flex flex-col gap-4 rounded-xl text-white max-w-xs">
+            <img src={commas} className="h-[25px] w-[26px]" />
+            <div className="text-md font-medium opacity-90">
+              By using crowdsourced reports and real-time data, we'll be able to coordinate faster evacuations and reduce coastal risk during emergencies.
             </div>
-            <div className='flex flex-col'>
-              <div className='text-lg font-semibold'>Dr. Priya Sharma</div>
-              <div >Disaster Management Officer</div>
+            <div className="flex items-center gap-4 mt-4">
+              <img src={officer} className="h-14 w-14 rounded-full object-cover" />
+              <div>
+                <div className="text-lg font-semibold">Dr. Priya Sharma</div>
+                <div className="text-sm opacity-80">Disaster Management Officer</div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className='border-2 px-6 py-8 flex flex-col gap-4 rounded-xl'>
-          <div className='flex items-center gap-4'>
-            <img src={commas} className='h-[25px] w-[26px] mt-0.5' />
-          </div>
-          <div className='text-md text-gray-900 opacity-85 font-medium max-w-[320px]'>
-            As a coastal resident, I will feel safer knowing I'll instantly get hazard alerts and guidelines to protect my family and community.
-          </div>
-
-          <div className='text-gray-900 mt-4 flex items-center justify-between gap-8'>
-            <div className='h-17 w-17 rounded-full overflow-hidden'>
-              <img src={journalist} className='object-fit rounded-full' />
+          {/* Card 3 */}
+          <div className="glass-parent px-6 py-8 flex flex-col gap-4 rounded-xl text-white max-w-xs">
+            <img src={commas} className="h-[25px] w-[26px]" />
+            <div className="text-md font-medium opacity-90">
+              As a coastal resident, I will feel safer knowing I'll instantly get hazard alerts and guidelines to protect my family and community.
             </div>
-            <div className='flex flex-col'>
-              <div className='text-lg font-semibold'>Arjun Shivale</div>
-              <div>Citizen Reporter, Mumbai</div>
+            <div className="flex items-center gap-4 mt-4">
+              <img src={journalist} className="h-14 w-14 rounded-full object-cover" />
+              <div>
+                <div className="text-lg font-semibold">Arjun Shivale</div>
+                <div className="text-sm opacity-80">Citizen Reporter, Mumbai</div>
+              </div>
             </div>
           </div>
+
         </div>
 
       </div>
-
     </div>
   )
 }
